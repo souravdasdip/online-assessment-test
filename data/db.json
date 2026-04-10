@@ -1,0 +1,272 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "email": "employer@test.com",
+      "password": "password123",
+      "role": "EMPLOYER",
+      "name": "Jane Employer"
+    },
+    {
+      "id": "2",
+      "email": "candidate@test.com",
+      "password": "password123",
+      "role": "CANDIDATE",
+      "name": "John Candidate"
+    }
+  ],
+  "exams": [
+    {
+      "id": "exam-1",
+      "title": "Frontend Developer Assessment",
+      "totalCandidates": 50,
+      "totalSlots": 10,
+      "questionSets": 3,
+      "questionType": "Mixed",
+      "startTime": "2026-04-10T09:00:00Z",
+      "endTime": "2026-04-11T18:00:00Z",
+      "duration": 60,
+      "negativeMarking": 0.25,
+      "questions": [
+        {
+          "id": "q1",
+          "title": "What is React 19?",
+          "type": "RADIO",
+          "options": [
+            "A library",
+            "A framework",
+            "A language"
+          ],
+          "answer": "A library"
+        },
+        {
+          "id": "q2",
+          "title": "Which of the following are React hooks?",
+          "type": "CHECKBOX",
+          "options": [
+            "useState",
+            "useEffect",
+            "useDatabase",
+            "useQuery"
+          ],
+          "answer": [
+            "useState",
+            "useEffect"
+          ]
+        },
+        {
+          "id": "q3",
+          "title": "Explain the concept of the Virtual DOM.",
+          "type": "TEXT",
+          "options": [],
+          "answer": ""
+        },
+        {
+          "id": "q4",
+          "title": "What is Next.js primarily used for?",
+          "type": "RADIO",
+          "options": [
+            "Machine Learning",
+            "Server-Side Rendering",
+            "Mobile Apps"
+          ],
+          "answer": "Server-Side Rendering"
+        },
+        {
+          "id": "q5",
+          "title": "Which of the following are utility-first CSS frameworks?",
+          "type": "CHECKBOX",
+          "options": [
+            "Tailwind CSS",
+            "Bootstrap",
+            "Material UI"
+          ],
+          "answer": [
+            "Tailwind CSS"
+          ]
+        },
+        {
+          "id": "q6",
+          "title": "What does CSS stand for?",
+          "type": "TEXT",
+          "options": [],
+          "answer": ""
+        },
+        {
+          "id": "q7",
+          "title": "How do you declare a state variable in a functional component?",
+          "type": "RADIO",
+          "options": [
+            "this.state",
+            "useState()",
+            "state = {}"
+          ],
+          "answer": "useState()"
+        },
+        {
+          "id": "q8",
+          "title": "Which of the following are valid native HTML elements?",
+          "type": "CHECKBOX",
+          "options": [
+            "<div>",
+            "<span>",
+            "<container>"
+          ],
+          "answer": [
+            "<div>",
+            "<span>"
+          ]
+        },
+        {
+          "id": "q9",
+          "title": "Describe the difference between block and inline elements.",
+          "type": "TEXT",
+          "options": [],
+          "answer": ""
+        },
+        {
+          "id": "q10",
+          "title": "What is the purpose of the 'key' prop in React lists?",
+          "type": "RADIO",
+          "options": [
+            "Styling",
+            "Identification for updates",
+            "Event handling"
+          ],
+          "answer": "Identification for updates"
+        },
+        {
+          "id": "q11",
+          "title": "Which methods are built-in to the JavaScript Array prototype?",
+          "type": "CHECKBOX",
+          "options": [
+            ".map()",
+            ".forEach()",
+            ".print()"
+          ],
+          "answer": [
+            ".map()",
+            ".forEach()"
+          ]
+        },
+        {
+          "id": "q12",
+          "title": "What does API stand for in software engineering?",
+          "type": "TEXT",
+          "options": [],
+          "answer": ""
+        }
+      ]
+    }
+  ],
+  "submissions": [
+    {
+      "id": "526c202a-d866-4b6b-8ce3-d55b77ab0133",
+      "examId": "exam-1",
+      "candidateId": "temp-candidate-id",
+      "answers": {},
+      "violations": 0,
+      "isAutoSubmitted": true,
+      "submittedAt": "2026-04-10T06:12:09.759Z"
+    },
+    {
+      "id": "951666cd-a47c-4ed8-b9e2-3cdb5165a3a4",
+      "examId": "exam-1",
+      "candidateId": "temp-candidate-id",
+      "answers": {},
+      "violations": 0,
+      "isAutoSubmitted": true,
+      "submittedAt": "2026-04-10T06:12:09.774Z"
+    },
+    {
+      "id": "9ff12242-ceed-4c87-8971-19dd1744d480",
+      "examId": "exam-1",
+      "candidateId": "temp-candidate-id",
+      "answers": {},
+      "violations": 1,
+      "isAutoSubmitted": false,
+      "submittedAt": "2026-04-10T06:12:38.127Z"
+    },
+    {
+      "id": "4f9288a2-ac48-417e-9c99-50c1f1a4907a",
+      "examId": "exam-1",
+      "candidateId": "temp-candidate-id",
+      "answers": {
+        "q1": "A framework"
+      },
+      "violations": 0,
+      "isAutoSubmitted": false,
+      "submittedAt": "2026-04-10T06:13:04.903Z"
+    },
+    {
+      "id": "bcff6b81-5c1b-4d69-8a82-5a3a96452510",
+      "examId": "exam-1",
+      "candidateId": "temp-candidate-id",
+      "answers": {
+        "q1": "A library"
+      },
+      "violations": 0,
+      "isAutoSubmitted": false,
+      "submittedAt": "2026-04-10T06:13:19.122Z"
+    },
+    {
+      "id": "bd66b013-6f45-41ac-bbc4-30da77b663c9",
+      "examId": "exam-1",
+      "candidateId": "temp-candidate-id",
+      "answers": {
+        "q1": "A library"
+      },
+      "violations": 0,
+      "isAutoSubmitted": false,
+      "submittedAt": "2026-04-10T06:16:39.129Z"
+    },
+    {
+      "id": "85ddfa4d-acfd-4788-a4d8-9da664063146",
+      "examId": "exam-1",
+      "candidateId": "temp-candidate-id",
+      "answers": {},
+      "violations": 2,
+      "isAutoSubmitted": true,
+      "submittedAt": "2026-04-10T06:17:54.778Z"
+    },
+    {
+      "id": "df3ffea5-4ed4-4658-8137-1bd5d258c2d0",
+      "examId": "exam-1",
+      "candidateId": "temp-candidate-id",
+      "answers": {},
+      "violations": 2,
+      "isAutoSubmitted": true,
+      "submittedAt": "2026-04-10T06:17:54.851Z"
+    },
+    {
+      "id": "de82cd7b-b78c-49a6-a85f-724a9dd70049",
+      "examId": "exam-1",
+      "candidateId": "temp-candidate-id",
+      "answers": {
+        "q1": "A library",
+        "q2": [
+          "useEffect"
+        ],
+        "q3": "<h1>This&nbsp;is&nbsp;was&nbsp;for&nbsp;the&nbsp;<strong>test</strong>..</h1>",
+        "q4": "Server-Side Rendering",
+        "q5": [
+          "Tailwind CSS"
+        ],
+        "q6": "<p>adasda&nbsp;as&nbsp;as&nbsp;</p>",
+        "q7": "useState()",
+        "q8": [
+          "<span>"
+        ],
+        "q9": "<p>dsas&nbsp;as&nbsp;asd&nbsp;as&nbsp;</p>",
+        "q10": "Event handling",
+        "q11": [
+          ".forEach()"
+        ],
+        "q12": "<p>das&nbsp;d&nbsp;asdas&nbsp;asd&nbsp;as&nbsp;dasd&nbsp;as&nbsp;asd&nbsp;as&nbsp;</p>"
+      },
+      "violations": 0,
+      "isAutoSubmitted": false,
+      "submittedAt": "2026-04-10T18:02:39.392Z"
+    }
+  ]
+}
