@@ -4,7 +4,6 @@ A highly robust, production-ready full-stack online assessment interface for can
 
 ## 🚀 Live Demo & Video
 - **Live Demo Link:** [https://online-assessment-test.vercel.app/](https://online-assessment-test.vercel.app/)
-- **Video Walkthrough:** [Insert Loom/YouTube Link Here]
 
 ## ✨ Features
 ### Employer Panel
