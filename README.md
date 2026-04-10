@@ -33,7 +33,7 @@ Fully functional Next.js App Router API Routes (`/api/exams`, `/api/exams/[id]/s
 ## 💻 Setup Instructions
 1. **Clone the repository**
    ```bash
-   git clone <your-repo-link>
+   git clone https://github.com/souravdasdip/online-assessment-test.git
    cd onlineAssessmentTest
    ```
 2. **Install dependencies (PNPM recommended)**
